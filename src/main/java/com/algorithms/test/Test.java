@@ -30,6 +30,7 @@ public class Test {
         long end2 = System.currentTimeMillis();
         for (int i = 0; i < 5; i++) {
             System.out.println(characters2[i]);
+            System.out.println("test");
         }
 
         System.out.println(end2-start1);
