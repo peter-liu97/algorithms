@@ -31,6 +31,7 @@ public class Test {
         for (int i = 0; i < 5; i++) {
             System.out.println(characters2[i]);
         }
+
         System.out.println(end2-start1);
 
     }
