@@ -111,7 +111,7 @@ public class TopM<Key extends Comparable<Key>> implements MaxPQ {
             node = node.next;
         }
         Node minNode = node.next;
-        node.next = null; //for GC
+        node.next = null;  //for GC
         size--;
         return minNode.key;
     }
