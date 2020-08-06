@@ -2,9 +2,9 @@ package com.utill;
 
 public class TreeNode<Key extends Comparable<Key>>{
 
-    Key key;
-    TreeNode left;
-    TreeNode right;
+     Key key ;
+     TreeNode<Key> left ;
+     TreeNode<Key> right ;
 
     public TreeNode(Key key, TreeNode left, TreeNode right) {
         this.key = key;
