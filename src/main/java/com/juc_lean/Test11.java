@@ -3,6 +3,7 @@ package com.juc_lean;
 import org.junit.Test;
 
 import java.io.File;
+import java.util.UUID;
 import java.util.zip.DataFormatException;
 
 
@@ -76,5 +77,21 @@ public class Test11 {
             e.printStackTrace();
         }
         System.out.println(productInfo);
+    }
+
+    @Test
+    public void testSql(){
+        for (int i = 0; i < 70; i++) {
+            System.out.println(UUID.randomUUID().toString().replaceAll("-",""));
+        }
+    }
+
+    @Test
+    public void test3(){
+        int i = 0;
+        System.out.println(i++);
+        System.out.println(i++);
+        System.out.println(i++);
+        System.out.println(i++);
     }
 }

@@ -18,4 +18,14 @@ public class Product {
         this.i = product.getI();
     }
 
+
+//    @Override
+//    public int hashCode() {
+//        return this.i;
+//    }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
 }
